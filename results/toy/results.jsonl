@@ -1,0 +1,14 @@
+{"tag": "fp16", "method": "fp16", "bpw": 16.0, "ppl": 2.517309075701248}
+{"tag": "rtn-2bit", "method": "rtn", "bpw": 2.5, "ppl": 2.9023999157167126}
+{"tag": "awq-2bit", "method": "bitbudget-uniform", "bpw": 2.5, "ppl": 2.8249933690263664}
+{"tag": "rtn-3bit", "method": "rtn", "bpw": 3.5, "ppl": 2.553963907084252}
+{"tag": "awq-3bit", "method": "bitbudget-uniform", "bpw": 3.5, "ppl": 2.5486910787606356}
+{"tag": "rtn-4bit", "method": "rtn", "bpw": 4.5, "ppl": 2.532598193999094}
+{"tag": "awq-4bit", "method": "bitbudget-uniform", "bpw": 4.5, "ppl": 2.52068176595139}
+{"tag": "bitbudget-3.0", "method": "bitbudget", "bpw": 2.9944444444444445, "ppl": 2.602407419235118, "target_bpw": 3.0, "histogram": {"2": 11, "3": 16, "4": 1, "6": 0, "8": 0}}
+{"tag": "bitbudget-noawq-3.0", "method": "bitbudget-noawq", "bpw": 2.9944444444444445, "ppl": 2.5996216036659763, "target_bpw": 3.0, "histogram": {"2": 11, "3": 16, "4": 1, "6": 0, "8": 0}}
+{"tag": "bitbudget-3.5", "method": "bitbudget", "bpw": 3.4944444444444445, "ppl": 2.5418772242483625, "target_bpw": 3.5, "histogram": {"2": 4, "3": 16, "4": 8, "6": 0, "8": 0}}
+{"tag": "bitbudget-noawq-3.5", "method": "bitbudget-noawq", "bpw": 3.4944444444444445, "ppl": 2.5504816756472772, "target_bpw": 3.5, "histogram": {"2": 4, "3": 16, "4": 8, "6": 0, "8": 0}}
+{"tag": "bitbudget-output-3.5", "method": "bitbudget-output", "bpw": 3.4944444444444445, "ppl": 2.590213150329044, "target_bpw": 3.5, "histogram": {"2": 6, "3": 19, "4": 3, "6": 0, "8": 0}}
+{"tag": "bitbudget-4.0", "method": "bitbudget", "bpw": 3.9944444444444445, "ppl": 2.534181283601444, "target_bpw": 4.0, "histogram": {"2": 1, "3": 10, "4": 16, "6": 1, "8": 0}}
+{"tag": "bitbudget-noawq-4.0", "method": "bitbudget-noawq", "bpw": 3.9944444444444445, "ppl": 2.534591919113446, "target_bpw": 4.0, "histogram": {"2": 1, "3": 10, "4": 16, "6": 1, "8": 0}}
